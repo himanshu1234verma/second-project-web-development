@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+  
+    background:rgba(0, 0, 0, .20) url(/assects/bg.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+}
+
+header h1 img{
+        
+    height: 30px;
+    width: 80px;
+    margin-left: 40px;
+    border-right:1px solid white;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul li{
+    display: flex;
+    align-items: center;
+}
+
+header ul li a{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-left: 45px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+
+header button{
+    background-color: rgb(182, 17, 237);
+    cursor: pointer;
+    height: 35px;
+    width: 115px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 450px;
+    color: white;
+    font-weight: 600;
+}
+
+/* Main Section */
+
+#main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 130px;
+    color: #fff;
+}
+main p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+main button{
+    font-size: 15px;
+   
+    height: 35px;
+    width: 200px;
+    background-color:rgb(188, 4, 249); 
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    margin-left: 600px;
+    margin-top: 35px;
+    cursor: pointer;
+}

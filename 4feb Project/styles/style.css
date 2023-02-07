@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
+}
+body{
+    
+    background:rgba(0, 0, 0, .50) url(/assects/bgimage.png);
+   
+    background-blend-mode: darken;
+  
+  
+   
+}
+
+header{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+header h1 img{
+            height:50px;
+            width:100px;
+            margin-left: 10px;
+            margin-top: 12px;
+
+           
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: px;
+}
+header ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 5px;
+    /* padding: px; */
+    list-style: none;
+}
+
+/*  list item anker tag*/
+
+header ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+
+/* Button  */
+
+header button{
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    width: 110px;
+    margin: 12px;
+    margin-top:18px;
+    margin-left: 500px;
+    background-color: rgb(118, 86, 199);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+
+/*    Main Section */
+
+main h1{
+    
+    margin-left: 50px;
+    font-size: 60px;
+    color: #fff;
+    margin-top: 80px;
+
+}
+
+main p{
+    font-size: 20px;
+    color: white;
+    /* margin-top: ; */
+    margin-left: 50px;
+}
+
+main button{
+    font-size:15px ;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 25px;
+    background-color: #fff;
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(118, 86, 199);
+    color: white;
+    cursor: pointer;
+}
